@@ -61,7 +61,7 @@ export function RevenueChart() {
                 })
               }
             />
-            <CartesianGrid strokeDasharray="3 3" stroke="#888" />
+            <CartesianGrid vertical={false} className="stroke-muted" />
             <Tooltip />
             <Line
               type="monotone"
